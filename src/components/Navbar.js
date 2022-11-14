@@ -36,7 +36,7 @@ export class Navbar extends Component {
         console.error(error.response);
       });
   }
-
+  //logout
   handleLogout = () => {
     localStorage.removeItem("FBIdToken");
     delete axios.defaults.headers.common["Authorization"];
@@ -103,6 +103,8 @@ export class Navbar extends Component {
       </div>
     );
 
+    //diff nav for admin
+    //auth admin
     let authenticatedAdmin = (
       <div className="navbar-isolated-items">
         <div className="navbar-menu-items">
