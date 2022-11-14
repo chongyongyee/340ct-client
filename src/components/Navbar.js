@@ -36,7 +36,7 @@ export class Navbar extends Component {
         console.error(error.response);
       });
   }
-
+  //logout
   handleLogout = () => {
     localStorage.removeItem("FBIdToken");
     delete axios.defaults.headers.common["Authorization"];
