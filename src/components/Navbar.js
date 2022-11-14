@@ -104,6 +104,7 @@ export class Navbar extends Component {
     );
 
     //diff nav for admin
+    //auth admin
     let authenticatedAdmin = (
       <div className="navbar-isolated-items">
         <div className="navbar-menu-items">
