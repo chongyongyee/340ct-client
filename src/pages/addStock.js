@@ -20,6 +20,7 @@ export class addStock extends Component {
     discount: "",
   };
 
+  //add new book
   handleSubmit = (event) => {
     event.preventDefault();
 
