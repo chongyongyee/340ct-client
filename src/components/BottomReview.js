@@ -9,6 +9,7 @@ export class BottomReview extends Component {
     reviews: null,
   };
 
+  //get review
   componentDidMount() {
     axios
       .get("/review-overall")
@@ -22,6 +23,7 @@ export class BottomReview extends Component {
       });
   }
 
+  //display review
   render() {
     let reviewArray = this.state.reviews ? (
       this.state.reviews.map((review) => (
