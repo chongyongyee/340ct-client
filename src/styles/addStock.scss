@@ -1,0 +1,79 @@
+@import "./variables.scss";
+
+.add-stock {
+  &-main-container {
+    display: block;
+    padding: 20px 200px 50px 200px;
+    text-align: left;
+  }
+
+  &-title {
+    font-size: 40px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+  }
+
+  &-input-main-container {
+    display: flex;
+  }
+
+  &-input-container {
+    display: block;
+    padding: 0 16px;
+  }
+
+  &-disclaimer {
+    font-size: 14px;
+    color: $tertiaryBlack;
+    margin: 0;
+    margin-bottom: 18px;
+    margin-left: 5px;
+  }
+
+  &-input {
+    background-color: white;
+    border-radius: 5px;
+    padding: 14px 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-style: none;
+  }
+
+  &-button {
+    display: block;
+    background-color: $bgColorPrimary;
+    color: $primaryWhite;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100%;
+    border: none;
+    border-radius: 0.3125rem;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 28px;
+
+    &-div {
+      padding: 0 16px;
+    }
+
+    &-short {
+      display: block;
+      background-color: $bgColorPrimary;
+      color: $primaryWhite;
+      font-size: 1rem;
+      font-weight: 400;
+      width: 40%;
+      border: none;
+      border-radius: 0.3125rem;
+      text-align: center;
+      padding: 10px;
+      cursor: pointer;
+      margin-top: 20px;
+      margin-bottom: 28px;
+    }
+  }
+}

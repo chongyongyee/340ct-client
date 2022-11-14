@@ -1,0 +1,78 @@
+@import "./variables.scss";
+
+.login {
+  &-main-container {
+    padding: 100px 300px 100px 300px;
+  }
+
+  &-inner-container {
+    border-radius: 10px;
+    display: block;
+    padding: 20px 100px 20px 100px;
+    text-align: left;
+    background-color: $bgColorLight;
+  }
+
+  &-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 5px;
+    margin-bottom: 20px;
+  }
+
+  &-disclaimer {
+    font-size: 14px;
+    color: $tertiaryBlack;
+    margin: 0;
+    margin-bottom: 18px;
+    margin-left: 5px;
+  }
+
+  &-input {
+    background-color: white;
+    border-radius: 5px;
+    padding: 14px 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-style: none;
+  }
+
+  &-button {
+    display: block;
+    background-color: $bgColorPrimary;
+    color: $primaryWhite;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100%;
+    border: none;
+    border-radius: 0.3125rem;
+    margin-right: 1rem;
+    margin-left: auto;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 28px;
+  }
+
+  &-alternate {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    &-text {
+      font-size: 14px;
+      color: $tertiaryBlack;
+      font-weight: 300;
+      margin-right: 5px;
+    }
+
+    &-link {
+      font-size: 16px;
+      color: $bgColorPrimary;
+      font-weight: 500;
+      margin-right: 5px;
+      margin-top: 12px;
+    }
+  }
+}

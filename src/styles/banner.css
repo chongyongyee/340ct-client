@@ -1,0 +1,19 @@
+.banner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 16px 0 16px 0;
+}
+
+.banner-img {
+  width: 100%;
+  height: 8.875rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: none;
+  border-radius: 10px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+/*# sourceMappingURL=banner.css.map */

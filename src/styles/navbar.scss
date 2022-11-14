@@ -1,0 +1,61 @@
+@import "./variables.scss";
+
+.navbar {
+  height: 4.5rem;
+  width: 100%;
+  background-color: $bgColor;
+  padding: 1.125rem;
+  display: flex;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  &-logo {
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  &-isolated-items {
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+  }
+
+  &-menu-items {
+    display: flex;
+    margin-right: 50px;
+  }
+
+  &-items {
+    margin-top: 6px;
+    font-size: 22px;
+    font-weight: 300;
+    margin-right: 20px;
+    text-decoration: none;
+    color: $primaryBlack;
+  }
+
+  &-icon {
+    height: 24px;
+    width: auto;
+    margin-right: 20px;
+    margin-top: 6px;
+    cursor: pointer;
+  }
+
+  &-button {
+    display: block;
+    background-color: $bgColorPrimary;
+    color: $primaryWhite;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 9.375rem;
+    border: none;
+    border-radius: 0.3125rem;
+    margin-right: 1rem;
+    margin-left: auto;
+    text-align: center;
+    padding: 10px;
+  }
+}

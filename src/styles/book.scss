@@ -1,0 +1,193 @@
+@import "./variables.scss";
+
+.book {
+  &-single-container {
+    display: block;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    width: 280px;
+    height: 210px;
+  }
+
+  &-newreview {
+    &-container {
+      display: block;
+      text-align: left;
+      margin-top: 20px;
+    }
+    &-input {
+      background-color: white;
+      border-radius: 5px;
+      padding: 14px 20px;
+      width: 100%;
+      margin-bottom: 10px;
+      border-style: none;
+    }
+
+    &-button {
+      display: block;
+      background-color: $tertiaryBlack;
+      color: $primaryWhite;
+      font-size: 1rem;
+      font-weight: 400;
+      width: 9.375rem;
+      border: none;
+      border-radius: 0.3125rem;
+      text-align: center;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  }
+
+  &-button-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &-main-container {
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  &-img {
+    width: auto;
+    height: 130px;
+    object-fit: cover;
+    border: none;
+    border-radius: 10px;
+    justify-self: center;
+    margin-bottom: 15px;
+  }
+
+  &-title {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    white-space: nowrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+  }
+
+  &-details {
+    &-main-container {
+      padding: 0 250px 0 250px;
+      display: block;
+    }
+
+    &-inner-container {
+      display: flex;
+    }
+
+    &-img {
+      width: auto;
+      height: 325px;
+      object-fit: cover;
+      border: none;
+      border-radius: 10px;
+      justify-self: center;
+      margin-right: 15px;
+    }
+
+    &-info-container {
+      display: block;
+      text-align: left;
+    }
+
+    &-title {
+      font-size: 24px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      color: $primaryBlack;
+    }
+
+    &-small-text {
+      size: 18px;
+      margin-bottom: 15px;
+      color: $secondaryBlack;
+    }
+
+    &-summary {
+      size: 18px;
+      font-weight: 400;
+      color: $secondaryBlack;
+    }
+
+    &-instock {
+      size: 20px;
+      font-weight: 600px;
+      color: $bgColorSuccess;
+    }
+
+    &-price {
+      size: 18px;
+    }
+
+    &-button {
+      display: block;
+      background-color: $bgColorPrimary;
+      color: $primaryWhite;
+      font-size: 1rem;
+      font-weight: 400;
+      width: 9.375rem;
+      border: none;
+      border-radius: 0.3125rem;
+      text-align: center;
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    &-review {
+      &-container {
+        display: block;
+        margin-top: 100px;
+        text-align: left;
+      }
+
+      &-items {
+        display: block;
+        margin-bottom: 30px;
+      }
+
+      &-userdata-container {
+        display: flex;
+      }
+
+      &-username {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0;
+        margin-right: 20px;
+      }
+
+      &-date {
+        size: 16px;
+        font-weight: 400;
+        margin: 0;
+        margin-top: 2px;
+      }
+
+      &-text {
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+        margin-top: 10px;
+      }
+
+      &-title {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: left;
+        margin: 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

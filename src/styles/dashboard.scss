@@ -1,0 +1,72 @@
+@import "./variables.scss";
+
+.dashboard {
+  &-main-container {
+    padding: 20px 200px 50px 200px;
+    text-align: left;
+  }
+
+  &-title {
+    font-size: 40px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  &-info {
+    &-div {
+      display: flex;
+    }
+
+    &-item {
+      padding: 8px 16px;
+      border-style: solid;
+      border-color: $bgColorPrimary;
+      display: flex;
+      margin-right: 15px;
+      border-radius: 5px;
+    }
+
+    &-icon {
+      height: 40px;
+      width: auto;
+      margin-right: 10px;
+    }
+
+    &-text {
+      font-size: 18px;
+      margin: 0;
+      font-weight: 500;
+      margin-top: 8px;
+    }
+  }
+
+  &-book {
+    &-list-container {
+      display: flex;
+      margin-top: 40px;
+      cursor: pointer;
+    }
+
+    &-inner-container {
+      display: flex;
+      margin-left: auto;
+    }
+
+    &-title {
+      font-size: 18px;
+      margin: 0;
+      color: $primaryBlack;
+      font-weight: 400;
+      margin-right: 16px;
+      max-width: 80%;
+
+      &-instock {
+        font-size: 18px;
+        margin: 0;
+        font-weight: 400;
+        margin-right: 16px;
+      }
+    }
+  }
+}

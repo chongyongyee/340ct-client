@@ -1,0 +1,34 @@
+@import "./variables.scss";
+
+.bottom-review {
+  &-main-container {
+    width: 100%;
+    height: auto;
+    padding: 40px 100px 40px 100px;
+    background-color: $bgColorSecondary;
+    display: flex;
+    margin-top: 40px;
+  }
+
+  &-items-container {
+    display: flex;
+  }
+
+  &-items {
+    display: block;
+    padding: 16px;
+  }
+
+  &-text {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: $primaryWhite;
+  }
+
+  &-subtitle {
+    font-size: 26px;
+    font-weight: 400;
+    color: $secondaryWhite;
+  }
+}

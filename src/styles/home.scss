@@ -1,0 +1,16 @@
+@import "./variables.scss";
+
+.home {
+  &-main-container {
+    padding: 2rem;
+  }
+
+  &-title {
+    size: 40px;
+    color: $primaryBlack;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+}

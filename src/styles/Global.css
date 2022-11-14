@@ -1,0 +1,123 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  background-color: #fbf7ee;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
+/* Optional: show position indicator in red */
+*,
+::after,
+::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir", sans-serif;
+  color: #121212;
+}
+
+.error {
+  margin: 0;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+.label-verification {
+  background-color: #d72e41;
+  border-radius: 0.3125rem;
+  padding: 1rem;
+  margin: 1rem 1rem;
+  color: #2b2b2b;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.label-verification-yellow {
+  background-color: #bf7e45;
+  border-radius: 0.3125rem;
+  padding: 1rem;
+  margin: 0 1rem;
+  color: #121212;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.popup {
+  display: inline-block;
+  border-radius: 0.3125rem;
+  background-color: #4e4e4e;
+  position: fixed;
+  z-index: 1;
+  padding: 0.3125rem 0.625rem;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+.popup-text {
+  font-weight: 300;
+  font-size: 0.75rem;
+  color: white;
+  text-align: center;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+/*# sourceMappingURL=Global.css.map */

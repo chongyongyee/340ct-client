@@ -1,0 +1,36 @@
+.category-main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.category-single-container {
+  width: auto;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.category-details-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.category-icon {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+
+.category-text {
+  font-size: 26px;
+  font-weight: 300;
+  margin: 6px 0 0 0;
+}
+/*# sourceMappingURL=category.css.map */

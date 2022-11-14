@@ -1,0 +1,78 @@
+.add-stock-main-container {
+  display: block;
+  padding: 20px 200px 50px 200px;
+  text-align: left;
+}
+
+.add-stock-title {
+  font-size: 40px;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.add-stock-input-main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.add-stock-input-container {
+  display: block;
+  padding: 0 16px;
+}
+
+.add-stock-disclaimer {
+  font-size: 14px;
+  color: #4e4e4e;
+  margin: 0;
+  margin-bottom: 18px;
+  margin-left: 5px;
+}
+
+.add-stock-input {
+  background-color: white;
+  border-radius: 5px;
+  padding: 14px 20px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-style: none;
+}
+
+.add-stock-button {
+  display: block;
+  background-color: #d72e41;
+  color: #f5f5f5;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  border: none;
+  border-radius: 0.3125rem;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+
+.add-stock-button-div {
+  padding: 0 16px;
+}
+
+.add-stock-button-short {
+  display: block;
+  background-color: #d72e41;
+  color: #f5f5f5;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 40%;
+  border: none;
+  border-radius: 0.3125rem;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+/*# sourceMappingURL=addStock.css.map */
