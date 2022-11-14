@@ -74,7 +74,7 @@ export class dashboard extends Component {
           <div className="dashboard-book-inner-container">
             <h3 className="dashboard-book-title">{book.stock}</h3>
             <h3 className="dashboard-book-title-instock">In Stock</h3>
-            <h3 className="dashboard-book-title">RM {book.price}</h3>
+            <h3 className="dashboard-book-title">RMMMMMMMM {book.price}</h3>
           </div>
         </div>
       );
